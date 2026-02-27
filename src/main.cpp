@@ -45,6 +45,6 @@ void loop() {
     // Else
     //     Print "No Obstacle"
 
-    // TODO 8:
+
     // Add small delay (200–500ms)
 }
