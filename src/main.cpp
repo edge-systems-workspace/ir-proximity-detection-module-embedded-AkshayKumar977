@@ -30,10 +30,16 @@ Serial.println("IR Obstacle Detection System Initialized");
 
 void loop() {
 
-    // TODO 6:
+        ldr_reading = digitalRead(IR_PIN);
     // Read digital value from IR sensor
 
-    // TODO 7:
+     if (ldr_reading == HIGH) {
+        Serial.println("Obstacle Detected");
+     }
+        else {
+            Serial.println("No Obstacle");
+        }
+    delay(300);
     // If obstacle detected
     //     Print "Obstacle Detected"
     // Else
