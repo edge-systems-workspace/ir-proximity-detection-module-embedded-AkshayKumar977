@@ -2,18 +2,18 @@
 /**
  * @file main.cpp
  * @brief Embedded Obstacle Detection System using IR Sensor
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author AKSHAY KUMAR
+ * @date 2026-01-20
  *
  * @details
  * Reads digital input from IR sensor
  * and detects obstacle presence.
  */
 
- // TODO 1:
+#define IR_PIN 2
  // Define IR sensor digital pin (Use pin 2)
 
- // TODO 2:
+   int ldr_reading = 0;
  // Create variable to store sensor state
 
 void setup() {
